@@ -2,9 +2,9 @@
     --img-width0 : 65px;
     --img-width1 : 30px;
     --img-height: 40px;
-    --bg-color: #4c942d85;
-    --nav-hover: #3c5013;
-    --nav-active: #f8e2e6;
+    --bg-color: #7ad14885;
+    --nav-hover: #e4ffad;
+    --nav-active: #54bb51;
 }
 
 * {
@@ -36,21 +36,11 @@ h3 {
 
 .navbar a {
     text-decoration: none;
-    color:  #fff;
+    color:  #070505;
     font-size: 1.2rem;
     font-weight: bold;
 }
 
-.navbar button {
-    background-color: #ffff;
-    border: 1px solid #33a5b4;
-    padding: 10px 15px;
-    border-radius: 1rem;
-    font-size: 1.2rem;
-    font-weight: bold;
-    cursor: pointer;
-    color: #3c5013;
-}
 
 .navbar a:hover {
     color: var(--nav-hover);
@@ -91,7 +81,7 @@ h3 {
     flex-direction: column;
     padding: 10px;
     background-color: var(--bg-color);
-    color: #fff;
+    color: #0a0a0a;
     /* border-right: 0.1em solid #000; */
 }
 
@@ -166,8 +156,8 @@ th, td {
 .exp-head {
     display: inline-block;
     font-size: 15px;
-    border-right: 1px solid #8d8d8d;
-    color: #8d8d8d;
+    border-right: 1px solid #020000;
+    color: #080202;
     padding-right: 10px;
     margin: 2px 10px 5px 0;
 }
@@ -175,7 +165,7 @@ th, td {
 .exp-para {
     display: inline;
     font-size: 12px;
-    color: #8d8d8d;
+    color: #080303;
     margin: 5px 10px 5px 0;
 }
 
@@ -223,7 +213,7 @@ footer {
 }
 
 footer a {
-    color: #3c5013;
+    color: #000;
     text-decoration: none;
 }
 
@@ -242,6 +232,6 @@ footer .f-para {
 
 .f-para p  {
     margin-right: 5%;
-    border-right: 2px solid #8d8d8d;
+    border-right: 2px solid #000;
     padding-right: 5px;
 }
