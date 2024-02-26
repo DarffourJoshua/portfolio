@@ -1,0 +1,17 @@
+.sec-project {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+    width: 225%;
+}
+
+.sec-project article {
+    margin: 5% 0;
+}
+
+.sec-project img {
+    object-fit: cover;
+    width: 350px;
+}

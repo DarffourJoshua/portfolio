@@ -1,0 +1,46 @@
+:root {
+    --img-width0 : 65px;
+    --img-width1 : 30px;
+    --img-height: 40px;
+    --bg-color: #4c942d85;
+    --nav-hover: #3c5013;
+    --nav-active: #740d23;
+}
+
+.Service-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 225%;
+}
+
+.Service-sec article {
+    display: flex;
+    flex-direction: column;
+    
+    margin: 5% 0;
+}
+
+.sevice-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2% 0;
+}
+
+.sevice-container > img {
+    width: 45px;
+    margin-right: 3%;
+}
+
+.sevice-container ~ p {
+    text-align: center;
+    line-height: 150%;
+    margin-bottom: 2px;
+}
+
+p ~ a {
+    color: #3c5013;
+    margin-left: auto;
+    margin-right: auto;
+}
