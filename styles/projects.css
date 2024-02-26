@@ -1,17 +1,18 @@
 .sec-project {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
     padding: 10px;
     width: 225%;
 }
 
-.sec-project article {
+.sec-project figure {
     margin: 5% 0;
 }
 
 .sec-project img {
     object-fit: cover;
-    width: 350px;
+    /* width: 350px; */
 }
